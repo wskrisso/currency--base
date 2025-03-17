@@ -12,7 +12,7 @@ const CurrencyForm = ({ action }) => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    action({ 
+    action({
       amount: parseInt(amount),
       from,
       to,
